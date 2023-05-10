@@ -1,0 +1,30 @@
+
+
+
+
+.container{
+			position: relative;
+			width: 100%;
+			background:"#fff";
+			display: grid;
+			grid-template-columns: 1fr 2fr;
+}
+ .container .gauche {
+ 		position: relative;
+ 		background:green;
+ 		padding: 40px;
+ }
+
+  .container .droite {
+ 		position: relative;
+ 		background:red;
+ 		padding: 40px;
+
+ }
+  
+  .profil .image{
+  		position: relative;
+  		width: 30px;
+  		height: 30px;
+  		border-radius: 50%;
+  }
